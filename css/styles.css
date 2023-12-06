@@ -497,6 +497,11 @@ button {
     background-color: #404bbf;
 }
 
+.subscribe-button {
+    max-width: 24px;
+    max-height: 8px;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
