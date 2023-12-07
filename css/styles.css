@@ -603,16 +603,12 @@ button {
     margin-right: 24px;
     background-color: #e7e9fc;
     stroke: #2e2f42;
-    min-width: 24px;
-    min-height: 24px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border: none;
-    border: none;
 }
 
 .modal-close-icon {
@@ -622,11 +618,14 @@ button {
     line-height: 0;
 }
 
-.modal-close-button:hover,
 .modal-close-button:focus {
    background-color: #404BBF;
    fill: #FFFFFF;
    transition: 250ms linear;
+}
+
+.modal-close-button:hover {
+    fill: #ffffff
 }
 
 .modal-text {
@@ -685,7 +684,7 @@ button {
 }
 
 .label-textare {
-    
+
 }
 
 .footer-subscribe {
