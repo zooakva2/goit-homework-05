@@ -367,36 +367,48 @@
               <div class="label">
                 <label class="backdrop-label" for="number">
                   Phone
-                  <div class="input-container">
+                </label>
+                <div class="input-container">
                   <input id="number" class="label-input" name="number" type="tel" />
                   <svg class="icons-of-registration" width="18" height="24">
                     <use href="./images/icons.svg#icon-phone-black"></use>
                   </svg>
                   </div>
-                </label>
               </div>
               <div class="label">
                 <label class="backdrop-label" for="E-mail">
                 Email
-                  <div class="input-container">
-                    <input id="E-mail" class="label-input" name="E-mail" type="email" />
-                       <svg class="icons-of-registration" width="18" height="24">
-                          <use href="./images/icons.svg#icon-email-black"></use>
-                       </svg>
-                  </div>
                 </label>
+                <div class="input-container">
+                  <input id="E-mail" class="label-input" name="E-mail" type="email" />
+                     <svg class="icons-of-registration" width="18" height="24">
+                        <use href="./images/icons.svg#icon-email-black"></use>
+                     </svg>
+                </div>
               </div>
               <div class="label">
                 <label class="backdrop-label" for="user-comment">
                   Comment
-                  <div class="input-container">
-                     <textarea id="user-comment" class="label-textare" name="comment" type="text" rows="5" placeholder="Text input"></textarea>
-                  </div>
+                </label>
+                <div class="input-container">
+                  <textarea id="user-comment" class="label-textare" name="user-comment" type="text" rows="5" placeholder="Text input"></textarea>
+               </div>
+              </div>
+              <div class="last-label" for="user-privacy">
+                <input  id="user-privacy" type="checkbox" name="user-privacy" class="visually-hidden" value="true" />
+                <label class="last-backdrop-label">
+                  <span class="lable-span">
+                    <svg class="icons-of-registration" width="10" height="8">
+                      <use href="./images/icons.svg#"></use>
+                   </svg>
+                  </span>
+                  I accept the terms and conditions of the
+                  <a href="" class="privasy-policy">Privacy Policy</a>
                 </label>
               </div>
-              <label class="backdrop-label">
-                <input type="checkbox" name="accept" class="label-input" placeholder="Text input" />
-            </label>
+              <button class="last-button-backdrop">
+                Send
+              </button>
             </form>
           </div>
 </body>
