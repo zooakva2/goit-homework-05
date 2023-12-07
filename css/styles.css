@@ -598,9 +598,9 @@ button {
     position:absolute;
     right: 24px;
     top: 24px;
+    width: 24px;
+    height: 24px;
     padding: 0;
-    margin-top: 24px;
-    margin-right: 24px;
     background-color: #e7e9fc;
     stroke: #2e2f42;
     border-radius: 50%;
@@ -629,7 +629,6 @@ button {
 }
 
 .modal-text {
-   margin-top: 72px;
    margin-left: 24px;
    margin-bottom: 16px;
    font-weight: 500; 
@@ -649,7 +648,6 @@ button {
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
-
 }
 
 .label-input {
