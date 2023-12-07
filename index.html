@@ -344,33 +344,60 @@
                 </div>
               </div>
         </footer>
-        <div class="backdrop">
+        <div class="backdrop is-open">
           <div class="modal">
-            <button class="modal-close-button">
-              <svg class="modal-close-icon" weight="8" height="8" aria-label="close-model-button">
+            <button type="button" class="modal-close-button">
+              <svg class="modal-close-icon" width="8" height="8" aria-label="close-model-button">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>
             </button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
-            <label class="backdrop-label">
-              Name 
-                <input class="label-input" name="username" type="text" checked />
-            </label>
-            <label class="backdrop-label">
-              Phone
-                <input class="label-input" name="number" type="tel" />
-            </label>
-            <label class="backdrop-label">
+            <form>
+              <div class="label">
+                <label class="backdrop-label" for="user-name">
+                  Name 
+                  <div class="input-container">
+                    <input id="user-name" class="label-input" name="user-name" type="text" />
+                    <svg class="icons-of-registration" width="18" height="24">
+                      <use href="./images/icons.svg#icon-person-black"></use>
+                    </svg>
+                  </div>
+                </label>
+              </div>
+              <div class="label">
+                <label class="backdrop-label" for="number">
+                  Phone
+                  <div class="input-container">
+                  <input id="number" class="label-input" name="number" type="tel" />
+                  <svg class="icons-of-registration" width="18" height="24">
+                    <use href="./images/icons.svg#icon-phone-black"></use>
+                  </svg>
+                  </div>
+                </label>
+              </div>
+              <div class="label">
+                <label class="backdrop-label" for="E-mail">
                 Email
-                  <input class="label-input" name="email" type="email" />
-            </label>
-            <label class="backdrop-label">
-                Comment
-                  <input class="label-input" name="coment" type="text" row="5" />
-            </label>
-            <label class="backdrop-label">
+                  <div class="input-container">
+                    <input id="E-mail" class="label-input" name="E-mail" type="email" />
+                       <svg class="icons-of-registration" width="18" height="24">
+                          <use href="./images/icons.svg#icon-email-black"></use>
+                       </svg>
+                  </div>
+                </label>
+              </div>
+              <div class="label">
+                <label class="backdrop-label" for="user-comment">
+                  Comment
+                  <div class="input-container">
+                     <textarea id="user-comment" class="label-textare" name="comment" type="text" rows="5" placeholder="Text input"></textarea>
+                  </div>
+                </label>
+              </div>
+              <label class="backdrop-label">
                 <input type="checkbox" name="accept" class="label-input" placeholder="Text input" />
             </label>
+            </form>
           </div>
 </body>
 
