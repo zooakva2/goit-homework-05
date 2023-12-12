@@ -556,7 +556,7 @@ button {
     margin-left: 24px;
 }
 
-.footer-lable-subscribe {
+.footer-label-subscribe {
     margin-left: 16px;
 }
 
@@ -631,8 +631,12 @@ button {
    border: none;
 }
 
+.modal-close-button:hover {
+    fill: #ffffff;
+}
+
 .modal-close-button:hover .icons-of-registration{
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-text {
@@ -648,6 +652,10 @@ button {
 
 .label {
     margin-bottom: 8px;
+}
+
+.label-four {
+    margin-bottom: 16px;
 }
 
 .backdrop-label {
@@ -690,7 +698,7 @@ button {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-of-registration:focus {
+.label-input:focus .icons-of-registration{
     fill: #4D5AE5;
 }
 
@@ -734,15 +742,15 @@ button {
 }
 
 .lable-span {
+    border: 1px solid rgba(46, 47, 66, 0.4); 
+    fill: transparent;  
     width: 16px; 
     height: 16px; 
-    border: 1px solid rgba(46, 47, 66, 0.4); 
     border-radius: 2px; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent; 
 }
 
 .visually-hidden:checked , 
