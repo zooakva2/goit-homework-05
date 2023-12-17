@@ -745,7 +745,7 @@ button {
 
 }
 
-.visually-hidden:checked , .lable-span{
+.visually-hidden:checked .lable-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
