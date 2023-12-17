@@ -635,7 +635,7 @@ button {
     fill: #ffffff;
 }
 
-.modal-close-button:hover .icons-of-registration{
+.modal-close-button:hover .icons-of-registration:hover{
     fill: #ffffff;
 }
 
