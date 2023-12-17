@@ -749,15 +749,11 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-}
-
-.lable-span {
     border: 1px solid rgba(46, 47, 66, 0.4); 
     fill: transparent;  
 }
 
-.visually-hidden:checked , 
-.lable-span {
+.visually-hidden:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
