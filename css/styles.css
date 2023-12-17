@@ -702,7 +702,7 @@ button {
     fill: #4D5AE5;
 }
 
-.label-input:focus .icons-of-registration{
+.label-input:focus , .icons-of-registration{
     fill: #4D5AE5;
 }
 
@@ -745,7 +745,7 @@ button {
 
 }
 
-.visually-hidden:checked ,.last-backdrop-label, .lable-span{
+.visually-hidden:checked + .last-backdrop-label > .lable-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
