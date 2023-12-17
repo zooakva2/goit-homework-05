@@ -682,7 +682,7 @@ button {
     border-color: #4D5AE5;
 }
 
-.label-input:focus .icons-of-registration{
+.icons-of-registration:focus{
     fill: #4D5AE5;
 }
 
